@@ -1,6 +1,7 @@
 # loopage
 
-A Clojure library designed to ... well, that part is up to you.
+Variations of `for' that do other stuff besides building a lazy
+sequence.
 
 ## Usage
 
