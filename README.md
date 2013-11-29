@@ -5,11 +5,13 @@ sequence.
 
 ## Usage
 
+```
 (ns foo
   (:use [loopage.core :only [for-fold]]))
 
 (for-fold [s 0] [x (range 10) y [8 -3 2]] 
   (+ s (* x y)))
+```
 
 ## License
 
